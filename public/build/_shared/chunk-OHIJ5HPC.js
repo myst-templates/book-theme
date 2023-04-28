@@ -1,0 +1,1 @@
+import{a as g}from"/build/_shared/chunk-Q3LAIXCN.js";import{a as n}from"/build/_shared/chunk-PGXHGVE4.js";import{c as a}from"/build/_shared/chunk-XDMRC4Q6.js";var l=a((u,r)=>{var i=g(),s=n();r.exports=t;t.displayName="t4Vb";t.aliases=[];function t(e){e.register(i),e.register(s),e.languages["t4-vb"]=e.languages["t4-templating"].createT4("vbnet")}});export{l as a};
