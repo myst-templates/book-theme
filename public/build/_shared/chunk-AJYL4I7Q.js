@@ -1,1 +1,0 @@
-import{c as t}from"/build/_shared/chunk-XDMRC4Q6.js";var i=t((a,n)=>{function e(s){return{name:"VBScript in HTML",subLanguage:"xml",contains:[{begin:"<%",end:"%>",subLanguage:"vbscript"}]}}n.exports=e});export{i as a};
