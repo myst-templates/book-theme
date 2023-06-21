@@ -1,0 +1,3 @@
+import{c,i as s,j as e,k as n,m as t,p as i}from"/myst_assets_folder/_shared/chunk-RMYRWJKG.js";var u=c((b,a)=>{s();e();n();i();t();function r(g){return{name:"SubUnit",case_insensitive:!0,contains:[{className:"string",begin:`\\[
+(multipart)?`,end:`\\]
+`},{className:"string",begin:"\\d{4}-\\d{2}-\\d{2}(\\s+)\\d{2}:\\d{2}:\\d{2}.\\d+Z"},{className:"string",begin:"(\\+|-)\\d+"},{className:"keyword",relevance:10,variants:[{begin:"^(test|testing|success|successful|failure|error|skip|xfail|uxsuccess)(:?)\\s+(test)?"},{begin:"^progress(:?)(\\s+)?(pop|push)?"},{begin:"^tags:"},{begin:"^time:"}]}]}}a.exports=r});export default u();
