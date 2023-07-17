@@ -1,1 +1,0 @@
-import{c as l,i as a,j as c,k as e,m as n,p as t}from"/myst_assets_folder/_shared/chunk-RMYRWJKG.js";var v=l((o,u)=>{a();c();e();t();n();u.exports=s;s.displayName="csv";s.aliases=[];function s(i){i.languages.csv={value:/[^\r\n,"]+|"(?:[^"]|"")*"(?!")/,punctuation:/,/}}});export{v as a};

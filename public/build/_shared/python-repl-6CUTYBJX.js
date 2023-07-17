@@ -1,1 +1,0 @@
-import{c as o,i as n,j as s,k as a,m as t,p as e}from"/myst_assets_folder/_shared/chunk-RMYRWJKG.js";var p=o((g,i)=>{n();s();a();e();t();function r(c){return{aliases:["pycon"],contains:[{className:"meta",starts:{end:/ |$/,starts:{end:"$",subLanguage:"python"}},variants:[{begin:/^>>>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}i.exports=r});export default p();

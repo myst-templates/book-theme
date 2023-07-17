@@ -1,1 +1,0 @@
-import{c as p,i as a,j as t,k as e,m as i,p as r}from"/myst_assets_folder/_shared/chunk-RMYRWJKG.js";var u=p((l,n)=>{a();t();e();r();i();n.exports=s;s.displayName="hsts";s.aliases=[];function s(o){o.languages.hsts={directive:{pattern:/\b(?:includeSubDomains|max-age|preload)(?=[\s;=]|$)/i,alias:"property"},operator:/=/,punctuation:/;/}}});export{u as a};
