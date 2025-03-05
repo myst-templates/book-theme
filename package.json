@@ -1,6 +1,6 @@
 {
   "name": "@myst-theme/book",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "private": true,
   "sideEffects": false,
   "scripts": {
