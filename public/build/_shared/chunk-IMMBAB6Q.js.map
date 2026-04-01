@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../node_modules/myst-spec-ext/dist/types.js"],
+  "sourcesContent": ["export var SourceFileKind;\n(function (SourceFileKind) {\n    SourceFileKind[\"Article\"] = \"Article\";\n    SourceFileKind[\"Notebook\"] = \"Notebook\";\n    SourceFileKind[\"Part\"] = \"Part\";\n})(SourceFileKind || (SourceFileKind = {}));\n"],
+  "mappings": ";AAAO,IAAI;AAAA,CACV,SAAUA,iBAAgB;AACvB,EAAAA,gBAAe,SAAS,IAAI;AAC5B,EAAAA,gBAAe,UAAU,IAAI;AAC7B,EAAAA,gBAAe,MAAM,IAAI;AAC7B,GAAG,mBAAmB,iBAAiB,CAAC,EAAE;",
+  "names": ["SourceFileKind"]
+}

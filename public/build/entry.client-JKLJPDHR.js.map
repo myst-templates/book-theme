@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../app/entry.client.tsx"],
+  "sourcesContent": ["import { RemixBrowser } from '@remix-run/react';\nimport { startTransition, StrictMode } from 'react';\nimport { hydrateRoot } from 'react-dom/client';\n\nfunction hydrate() {\n  startTransition(() => {\n    hydrateRoot(\n      document,\n      <StrictMode>\n        <RemixBrowser />\n      </StrictMode>,\n    );\n  });\n}\n\nif (window.requestIdleCallback) {\n  window.requestIdleCallback(hydrate);\n} else {\n  // Safari doesn't support requestIdleCallback\n  // https://caniuse.com/requestidlecallback\n  window.setTimeout(hydrate, 1);\n}\n"],
+  "mappings": ";;;;;;;;;;;;;AACA,IAAAA,gBAA4C;AAC5C,oBAA4B;AAOpB;AALR,SAAS,UAAU;AACjB,qCAAgB,MAAM;AACpB;AAAA,MACE;AAAA,MACA,mDAAC,4BACC,6DAAC,kBAAD;AAAA;AAAA;AAAA;AAAA,aAAc,KADhB;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,IACF;AAAA,EACF,CAAC;AACH;AAEA,IAAI,OAAO,qBAAqB;AAC9B,SAAO,oBAAoB,OAAO;AACpC,OAAO;AAGL,SAAO,WAAW,SAAS,CAAC;AAC9B;",
+  "names": ["import_react"]
+}

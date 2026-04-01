@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["css-side-effects-plugin-ns:../../node_modules/jupyterlab-plotly/style/index.css"],
+  "sourcesContent": ["/**\n  Copyright (c) Jupyter Development Team.\n  Distributed under the terms of the Modified BSD License.\n*/\n\n/* Add CSS variables to :root */\n:root {\n  --jp-icon-plotly: url('./plotly.svg');\n}\n\n/* Base styles */\n.jp-RenderedPlotly {\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  overflow: hidden;\n}\n\n/* Document styles */\n.jp-MimeDocument .jp-RenderedPlotly {\n  overflow: hidden;\n}\n\n/* Document icon */\n.jp-PlotlyIcon {\n  background-image: var(--jp-icon-plotly);\n}\n"],
+  "mappings": ";AAMA;AACE;AAAA;AAIF;AACE;AACA;AACA;AACA;AAAA;AAIF;AACE;AAAA;AAIF;AACE;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:routes/($project)_.($a).($b).($c).($d).$slug[.json].tsx?browser"],
+  "sourcesContent": ["module.exports = {};"],
+  "mappings": ";;;;;AAAA;AAAA;AAAA,WAAO,UAAU,CAAC;AAAA;AAAA;",
+  "names": []
+}
