@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../../node_modules/myst-ext-button/dist/index.js"],
-  "sourcesContent": ["const REF_PATTERN = /^(.+?)<([^<>]+)>$/;\nexport const buttonRole = {\n    name: 'button',\n    doc: 'Button element with an action to navigate to internal or external links.',\n    body: {\n        type: String,\n        doc: 'The body of the button.',\n        required: true,\n    },\n    run(data) {\n        const body = data.body;\n        const match = REF_PATTERN.exec(body);\n        const [, modified, rawLabel] = match !== null && match !== void 0 ? match : [];\n        const url = rawLabel !== null && rawLabel !== void 0 ? rawLabel : body;\n        const node = {\n            type: 'link',\n            url,\n            children: [],\n            class: 'button', // TODO: allow users to extend this\n        };\n        if (modified)\n            node.children = [{ type: 'text', value: modified.trim() }];\n        return [node];\n    },\n};\n"],
-  "mappings": ";;;AAAA,IAAM,cAAc;AACb,IAAM,aAAa;AAAA,EACtB,MAAM;AAAA,EACN,KAAK;AAAA,EACL,MAAM;AAAA,IACF,MAAM;AAAA,IACN,KAAK;AAAA,IACL,UAAU;AAAA,EACd;AAAA,EACA,IAAI,MAAM;AACN,UAAM,OAAO,KAAK;AAClB,UAAM,QAAQ,YAAY,KAAK,IAAI;AACnC,UAAM,CAAC,EAAE,UAAU,QAAQ,IAAI,UAAU,QAAQ,UAAU,SAAS,QAAQ,CAAC;AAC7E,UAAM,MAAM,aAAa,QAAQ,aAAa,SAAS,WAAW;AAClE,UAAM,OAAO;AAAA,MACT,MAAM;AAAA,MACN;AAAA,MACA,UAAU,CAAC;AAAA,MACX,OAAO;AAAA;AAAA,IACX;AACA,QAAI;AACA,WAAK,WAAW,CAAC,EAAE,MAAM,QAAQ,OAAO,SAAS,KAAK,EAAE,CAAC;AAC7D,WAAO,CAAC,IAAI;AAAA,EAChB;AACJ;",
-  "names": []
-}
